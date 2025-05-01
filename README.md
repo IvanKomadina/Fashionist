@@ -79,10 +79,3 @@ Includes all Guest features, plus:
 - **State Management:** Context API / Redux (optional)
 - **Charts and Stats:** Chart.js / custom dashboard
 
----
-
-## ⚙️ Installation
-
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/your-username/fashionist.git
