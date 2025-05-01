@@ -1,0 +1,64 @@
+.analytics {
+    width: 100%;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f0f0f0;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+}
+  
+.analytics h1 {
+    text-align: center;
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
+
+.general-analytics {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
+
+.earnings-list {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
+
+.earnings-list .earning-item {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+.type-analytics {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.type-analytics p {
+    margin-bottom: 10px;
+}
+
+.clothes-chart {
+    width: 40%;
+}
+
+@media (max-width: 600px) {
+    .analytics {
+        padding: 10px;
+    }
+
+    .general-analytics,
+    .earnings-list,
+    .type-analytics {
+        padding: 15px;
+        margin-bottom: 15px;
+    }
+}

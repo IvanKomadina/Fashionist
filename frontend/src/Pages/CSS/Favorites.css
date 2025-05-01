@@ -1,0 +1,41 @@
+.favorite-products {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 20px;
+    row-gap: 40px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.fav-item-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    height: 100%;
+}
+
+.favorite-button {
+    margin-top: 15px;
+    padding: 10px 20px;
+    background-color: lightblue;
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: bold;
+    border-radius: 5px;
+}
+
+@media (max-width: 800px) {
+    .favorite-button {
+        font-size: 10px;
+        padding: 10px;
+    }
+}
+
+@media (max-width: 550px) {
+    .favorite-products {
+        grid-template-columns: 1fr 1fr;
+    }
+}

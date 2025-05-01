@@ -1,0 +1,139 @@
+.shop-category {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+.controls {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 60px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.search-control {
+    display: flex;
+    align-items: center;
+}
+
+.search-control label {
+    margin-right: 5px;
+}
+
+.search-control input {
+    border: 3px solid lightblue;
+    border-radius: 5px;
+    padding: 10px;
+    padding-right: 25px;
+    font-size: 16px;
+    margin-right: -25px;
+}
+
+.search-control img {
+    cursor: pointer;
+}
+
+.controls ul {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    list-style-type: none;
+    padding-inline-start: 0;
+}
+
+.controls li {
+    cursor: pointer;
+    border-left: 3px solid lightblue;
+    border-right: 3px solid lightblue;
+    padding: 5px;
+}
+
+.sort-control select {
+    border: 3px solid lightblue;
+    border-radius: 5px;
+    margin-left: 5px;
+    padding: 10px;
+    font-size: 16px;
+    color: gray;
+}
+
+.shopcategory-productlist {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    margin-top: 50px;
+    gap: 30px;
+}
+
+.pagination {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.pagination button {
+    background-color: #f0f0f0;
+    border: none;
+    padding: 8px 16px;
+    margin: 0 5px;
+    cursor: pointer;
+}
+
+.pagination button.active {
+    background-color: #333;
+    color: #fff;
+}
+
+@media (max-width: 1280px) {
+    .controls {
+        flex-direction: column;
+        gap: 30px;
+    }
+
+    .shopcategory-productlist {
+        gap: 20px;
+        margin-top: 30px;
+    }
+}
+
+@media (max-width: 800px) {
+    .controls {
+        font-size: 14px;
+    }
+
+    .search-control input {
+        font-size: 14px;
+    }
+
+    .sort-control select {
+        font-size: 14px;
+    }
+
+    .shopcategory-productlist {
+        gap: 5px;
+    }
+}
+
+@media (max-width: 500px) {
+    .controls {
+        font-size: 10px;
+        gap: 20px;
+        margin-bottom: 10px;
+    }
+
+    .search-control input {
+        font-size: 10px;
+    }
+
+    .sort-control select {
+        font-size: 10px;
+    }
+
+    .shopcategory-productlist {
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+}
