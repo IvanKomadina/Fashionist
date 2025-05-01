@@ -71,11 +71,11 @@ Includes all Guest features, plus:
 
 ## 🧑‍💻 Tech Stack
 
-- **Frontend:** React.js (Vite, Tailwind CSS)
+- **Frontend:** React.js, Vite, CSS
 - **Backend:** Node.js + Express.js
 - **Database:** MongoDB (Mongoose)
-- **Authentication:** JWT (JSON Web Tokens)
+- **Authentication:** JWT (JSON Web Token)
 - **Payment Integration:** Stripe
-- **State Management:** Context API / Redux (optional)
-- **Charts and Stats:** Chart.js / custom dashboard
+- **State Management:** Context API
+- **Charts and Stats:** Chart.js
 
